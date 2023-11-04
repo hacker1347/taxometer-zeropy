@@ -1,0 +1,8 @@
+speed = input("Enter your speed: ")
+speed = int(speed)
+distance = input("Enter your distance in miles: ")
+distance = float(distance)
+
+time = distance / speed # works in python 3, if not cast as float
+print(f"At {speed} it will take")
+print(f"{time} hours to travel {distance} miles.")
